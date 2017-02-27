@@ -17,6 +17,15 @@ $(document).ready(function(){
 
     $("#bandList").append("<li><span class='clickable'>" + bandInfo.band + "</span></li>");
 
-  });
+    $(".clickable").last().click(function() {
+      $("#show-band").show();
+      $("#show-band h2").text(bandInfo.band);
+      $(".new-band").text(bandInfo.band);
+      $(".new-album").text(bandInfo.album);
+    });
 
+    $("input#bandName").val("");
+    $("input#album").val("");
+
+  });
 });

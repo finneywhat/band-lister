@@ -1,0 +1,21 @@
+#show-band {
+  display: none;
+}
+
+.clickable {
+  color: blue;
+  cursor: crosshair;
+}
+
+.clickable:hover {
+  font-weight: bold;
+  color: green;
+}
+
+.new-band {
+  font-size: 14px;
+}
+
+.new-album {
+  font-size: 14px;
+}
