@@ -8,6 +8,29 @@
     <title>List o' Bands</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Enter your favorite bands</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <form id="bandForm">
+              <div class="form-group">
+                <label for="bandName">Enter a band name</label>
+                <input id="bandName" type="text" class="form-control" autofocus placeholder="e.g. The Beatles">
+              </div>
+              <div class="form-group">
+                <label for="album">Enter an album title for the band</label>
+                <input id="album" type="text" class="form-control" placeholder="e.g. White Album">
+              </div>
+              <button type="submit" name="button" class="btn btn-success">Click Here!</button>
+            </form>
+          </div>
+          <h3>Bands:</h3>
+          <ul id="bandList">
 
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
